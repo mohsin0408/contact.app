@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  margin-top: 5em;
+}
+
+.list{
+  margin-top: 5em;
+}
+
+.box{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.center {
+  justify-content: center;
+  padding: 10px;
+}
+
+.celled-list{
+  margin-top: 24px;
+}
+
+.ui.search input {
+  width: 100%;
+  border-radius: 0 ;
+}
+
+.item {
+  padding: 15px 0px ;
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.content{
+  display: flex;
+  gap: 10px;
+}
+
+
+i.icon {
+  float: right;
+  font-size: 20px;
+  cursor: pointer;
+  
+}
