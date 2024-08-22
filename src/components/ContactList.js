@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import ContactCard from "./ContactCard";
+import Logout from "./Logout";
 
 const ContactList = (props) => {
     
@@ -23,7 +24,8 @@ const ContactList = (props) => {
         <h2> Contact List </h2>
         <Link to="/add" >
         <button className="ui button blue right"> Add Button </button>
-        </Link>   
+        </Link> 
+        <Logout setIsLoggedIn={props.setIsLoggedIn} />  
         </div>
         <div className="ui celled-list">{renderContactList}</div>
         </div>
